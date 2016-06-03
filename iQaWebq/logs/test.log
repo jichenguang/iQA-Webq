@@ -2,8 +2,8 @@
 %$ INFO  Webq.utils.Log 25 info - Webq.Case.TestStoreWebq: Start WebDriver
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finsh
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: Webq.Page.PageLogin
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: /Users/700sfriend/mydev/git/QaWebq
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: /Users/700sfriend/mydev/git/QaWebq/src/main/java/Webq/Page/PageLogin.xml
+%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: /Users/700sfriend/git/iQA-Webq/iQaWebq
+%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: /Users/700sfriend/git/iQA-Webq/iQaWebq/src/main/java/Webq/Page/PageLogin.xml
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: Webq.Page.PageLogin
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: page Info is:Webq.Page.PageLogin
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
@@ -370,8 +370,8 @@ $("#pop-wrap").on('touchmove',function(e){
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：html/body/div[1]/div/div[3]
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: find element By xpath
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageHome: Webq.Page.PageHome
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageHome: /Users/700sfriend/mydev/git/QaWebq
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageHome: /Users/700sfriend/mydev/git/QaWebq/src/main/java/Webq/Page/PageHome.xml
+%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageHome: /Users/700sfriend/git/iQA-Webq/iQaWebq
+%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageHome: /Users/700sfriend/git/iQA-Webq/iQaWebq/src/main/java/Webq/Page/PageHome.xml
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: Webq.Page.PageHome
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: page Info is:Webq.Page.PageHome
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
@@ -415,34 +415,10 @@ $("#pop-wrap").on('touchmove',function(e){
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：结算  获取的元素路径是：.//*[@id='linkToPayPage']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrder: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrder: 元素名称是：提交订单  获取的元素路径是：.//*[@id='submitsection']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrder: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: 元素名称是：  .//*[@id='ContentPlaceHolder1_btnPay']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: 元素名称是：  .//*[@id='ContentPlaceHolder1_btnPay']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: 元素名称是：查看详情  .//*[@id='orderList']/div[1]/div[4]/div[3]/a
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7008180069082  .//*[@id='orderNumber']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7008180069082  .//*[@id='orderNumber']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：取消订单  .//*[@id='btnCancelOrder']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：  .//*[@id='btnDialogBySHFConfirm']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：已取消  .//*[@id='orderStatus']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Success
+%$ ERROR Webq.utils.Log 41 error - Webq.utils.TestNGListener: Test Failure
+%$ INFO  Webq.utils.Log 25 info - Webq.Case.TestStoreWebq: /Users/700sfriend/git/iQA-Webq/iQaWebq
+%$ INFO  Webq.utils.Log 25 info - Webq.Case.TestStoreWebq: save snapshot path is:/Users/700sfriend/git/iQA-Webq/iQaWebqTestStoreWebq_2016_06_03_18_23_10.png
+%$ INFO  Webq.utils.Log 25 info - Webq.Case.TestStoreWebq: screen shot finished
 %$ INFO  Webq.utils.Log 25 info - Webq.Case.TestStoreWebq: Stop WebDriver
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finish
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = actionCartSubCancleOrder
+%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: failedTest = actionCartSubCancleOrder
