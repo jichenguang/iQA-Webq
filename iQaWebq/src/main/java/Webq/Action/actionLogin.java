@@ -27,7 +27,7 @@ public class actionLogin {
 	public static WebDriver getDriver() {
 		return driver;
 	}
-	static String StoreUrl = "http://webq.700paper.cn/login?__EVENTVALIDATION=ryCxO3%2BYYdZyidBB3tjJjL1nmH%2Ba3PwdqoGkuEdtv9iO9SDYnhLQLLypCGslQAJ5hbUnY7zADWAyY5O4x%2BqwgbeoBkmRPD2RRKBI6d6szKjRywVe5dabKnBBgIRnDsmkYkAu4kQTXI9q9qtlEybwYcMA%2BSg%3D&__VIEWSTATE=EHz%2BXFa0Y10eK69THRdSA44ERVOCiQM8DIwjpuHNkWDFG6KPsRJ9vG3c2JDk%2FAiwhiuTOzmTZ9QEZjBEUHJJbCVXtFGojxsGN9TIrGdrX5%2B9biVPWLCcmfOUawxKYJzTfVF9NTf7LRoKf6aU2KAATTny85o%3D&__VIEWSTATEGENERATOR=C2EE9ABB&btnSubmit=&txtEmail=13157741542&txtPassword=ji123456";
+	static String StoreUrl = "http://webq.700paper.cn/login?__EVENTVALIDATION=zPEvEHHuVuia3o7cWOL0Wv%2FHP5RquU5AefjitZP5MEs31W0eV27hq6Au%2B1P7qaHjvP%2FSmNEcYy0qFCCkUhC7KVREmeNZK%2BIBDXPK%2BKT0clS%2BPgGOlz1UnJMFTaE3i2WOZaUxkoLArK1ZcsABAgQiA0t0tVs%3D&__VIEWSTATE=qugkCLu3cvauq28Z9UJMQqKr8SGIAd%2FouTF%2FrLDr8tEH242Om6RrqRj7oZzlzFFyj%2FCWgFFpE5UEAl9xLP5IU6%2Bb1SE%3D&__VIEWSTATEGENERATOR=C2EE9ABB&btnSubmit=&txtEmail=13157741542&txtPassword=ji123456";
 	static PageLogin loginPage;
 
 	/**
@@ -49,9 +49,10 @@ public class actionLogin {
 		loginPage.clickOnLoginButton();
 		
 		try{
+			System.out.println("切换到Store主页");
+			driver.get(StoreUrl);
 			loginPage.isPrestentProfile();
 		}catch(Exception e){
-			System.out.println("切换到Store主页");
 			Thread.sleep(2000);
 			try{
 //				driver.get("http://webq.700paper.cn/index?");

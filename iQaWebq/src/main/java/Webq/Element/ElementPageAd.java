@@ -8,11 +8,12 @@ import Webq.Page.forLoggerPage;
 
 
 /**
- * 常量类：购物车页面的元素。
+ * 常量类：广告活动页面的元素。
  * @author 700sfriend
  *
  */
-public class ElementPageCart {
+
+public class ElementPageAd {
 	
 	protected static forLoggerPage log = new forLoggerPage(ElementPageCart.class);
 	static String message = null;
@@ -21,23 +22,18 @@ public class ElementPageCart {
 	 * 购物车所有元素
 	 */
 	public static WebElement SellOnceButton = null;
-	private static WebElement ButtonCartToOrder = null;
-	
-	
 	/**
-	 * 获取从购物车去结算页的元素
+	 * 获取“立即购买”按钮
 	 * @param cartDriver
 	 * @return
 	 */
-	public static WebElement getButtonCartToOrder(WebDriver cartDriver) {
-		// TODO Auto-generated method stub
-		ButtonCartToOrder = cartDriver.findElement(By.xpath(".//*[@id='linkToPayPage']"));
-		message = "元素名称是："+ButtonCartToOrder.getText()+"  "+"获取的元素路径是："+".//*[@id='linkToPayPage']";
+	public  static WebElement getSellOnceButton(WebDriver cartDriver){
+		SellOnceButton = cartDriver.findElement(By.xpath("html/body/div[2]/div/div/div[2]/a"));
+		message = "元素名称是："+SellOnceButton.getText()+"  "+"获取的元素路径是："+"html/body/div[2]/div/div/div[2]/a";
 		printLog(message);
-		return ButtonCartToOrder;
-	};
-	
-		
+		return SellOnceButton ;	
+	}
+
 	
 	/**
 	 * 负责打印日志的方法。

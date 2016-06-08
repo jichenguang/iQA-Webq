@@ -7,11 +7,12 @@ import org.openqa.selenium.WebElement;
 import Webq.Element.ElementPageOrderDetails;
 import Webq.Element.ElementPageOrderLists;
 
+
 public class PageOrderLists {
 	
 	static WebDriver OrderDriver;
 	static JavascriptExecutor jse; 
-	
+	protected static forLoggerPage log = new forLoggerPage(PageOrderLists.class);
 	
 	/**
 	 * 结算页里的Action
@@ -36,19 +37,23 @@ public class PageOrderLists {
 	 */	
 	private static void PageOrderLists() throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.out.println("进入订单列表页");
-		Thread.sleep(3000);
+		log.info("进入订单列表页");		
 		try{
-		OrderDriver.get(ElementPageOrderLists.strUrl);	
+			Thread.sleep(3000);
+			OrderDriver.get(ElementPageOrderLists.strUrl);	
 		}catch(Exception e){
-		System.out.println("进入订单列表失败，开始重试！");
-		Thread.sleep(3000);	
-		OrderDriver.get(ElementPageOrderLists.strUrl);
+			log.error("进入订单列表失败，开始重试！");
+			Thread.sleep(5000);	
+			try{  
+				OrderDriver.get(ElementPageOrderLists.strUrl);
+				}catch(Exception e1){
+					log.error("进入订单列表失败，重试失败！");
+				}
 		}	
 		if(OrderDriver.getTitle().equals(ElementPageOrderLists.strOrderLists)){
-			System.out.println("成功进入订单列表页");
+			log.info("成功进入订单列表页");
 		}else{
-			System.out.println("没有成功进入订单列表页");
+			log.error("没有成功进入订单列表页");
 		}
 
 	}

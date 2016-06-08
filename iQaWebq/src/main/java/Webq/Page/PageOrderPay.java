@@ -28,7 +28,8 @@ public class PageOrderPay {
 //		获取支付页面文案；
 		TextPayPage();
 //		检查是否提交成功；
-		checkOrder();		
+		checkOrder();
+		Thread.sleep(3000);
 	}
 	
 	

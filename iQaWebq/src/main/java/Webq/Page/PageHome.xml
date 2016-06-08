@@ -8,7 +8,7 @@
 	<!-- 	<locator type="ByXpath" timeOut="3" value="html/body/div[1]/div/div[3]">profile</locator>	 -->
 		
 		<!-- 社区我的 -->
-		<locator type="ByXpath" timeOut="3" value=".//*[@id='header-avatr-wrap']/div/a/img">profile</locator>	
+		<!-- <locator type="ByXpath" timeOut="3" value=".//*[@id='header-avatr-wrap']/div/a/img">profile</locator> -->	
 		<!-- 主页 -->
 		<locator type="ByXpath" timeOut="3" value="html/body/div[1]/div/ul/li[1]/a">MainPage</locator>
 		<!-- 跳转到Store -->		
