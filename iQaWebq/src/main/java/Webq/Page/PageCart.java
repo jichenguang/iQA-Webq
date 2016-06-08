@@ -34,13 +34,9 @@ public class PageCart {
 //			购物车流程
 			openProduct();
 			checkSellOnce();
-
-			IsButtonNoEnunghPr();
-			
-			checkColer();
-			
-			ButtonAddCart();
-			
+			IsButtonNoEnunghPr();			
+			checkColer();			
+			ButtonAddCart();			
 			CartSuccess();
 			IsOverCart();
 			ToCart();

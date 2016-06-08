@@ -67,6 +67,7 @@ public class PageOrderDetails {
 				WebElement ButtonCancleOrder = ElementPageOrderDetails.getButtonCancleOrder(OrderDriver);				
 				if(iShasButtonCancleOrder(ButtonCancleOrder)){
 				jse.executeScript("arguments[0].click();",ButtonCancleOrder);
+				Thread.sleep(3000);
 				WebElement ButtonAccept = ElementPageOrderDetails.getButtonAccept(OrderDriver);				
 				jse.executeScript("arguments[0].click();",ButtonAccept);
 				}else{

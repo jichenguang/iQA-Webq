@@ -39,7 +39,6 @@ public class PageOrderLists {
 		// TODO Auto-generated method stub
 		log.info("进入订单列表页");		
 		try{
-			Thread.sleep(3000);
 			OrderDriver.get(ElementPageOrderLists.strUrl);	
 		}catch(Exception e){
 			log.error("进入订单列表失败，开始重试！");
@@ -49,15 +48,14 @@ public class PageOrderLists {
 				}catch(Exception e1){
 					log.error("进入订单列表失败，重试失败！");
 				}
-		}	
+		}
 		if(OrderDriver.getTitle().equals(ElementPageOrderLists.strOrderLists)){
 			log.info("成功进入订单列表页");
 		}else{
 			log.error("没有成功进入订单列表页");
 		}
-
 	}
-
+	
 	
 	
 	
