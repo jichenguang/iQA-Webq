@@ -52,7 +52,22 @@ public class PageCart {
 		 */
 		private static void CartCrease() {
 			// TODO Auto-generated method stub
-
+			WebElement ButtonDecrease = ElementPageCart.getButtonDecrease(cartDriver);
+			WebElement ButtonIncrease = ElementPageCart.getButtoIncrease(cartDriver);
+			if(ButtonDecrease.getText()!=null&ButtonIncrease.getText()!=null){
+				log.info("增加商品的数量为1");
+				try{
+					jse.executeScript("arguments[0].click();", ButtonDecrease);
+				}catch(Exception e){
+					log.error("增加商品失败！");
+				}
+				log.info("减少商品的数量为1");	
+				try{
+				jse.executeScript("arguments[0].click();", ButtonIncrease);	
+				}catch(Exception e){
+					log.error("减少商品失败！");
+				}
+			}		
 		}
 
 		/**
