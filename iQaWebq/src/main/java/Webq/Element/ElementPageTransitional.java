@@ -24,6 +24,8 @@ public class ElementPageTransitional {
 	public static WebElement SellOnceButton = null;
 	private static WebElement checkText = null;
 	private static WebElement ButtonToCart = null;
+	private static WebElement FooderPageCart;
+	private static WebElement HeaderPageCart;
 	/**
 	 * 获取购物车成功页的文本
 	 * @param cartDriver 
@@ -43,6 +45,7 @@ public class ElementPageTransitional {
 	 * @param cartDriver
 	 * @return
 	 */
+	
 	public static WebElement getButtonToCart(WebDriver cartDriver) {
 		// TODO Auto-generated method stub
 		ButtonToCart = cartDriver.findElement(By.xpath(".//*[@id='toCheckOut']"));
@@ -52,6 +55,32 @@ public class ElementPageTransitional {
 	}
 
 
+	
+	/**
+	 * 获取过渡页的页脚
+	 */
+	public static WebElement getHeaderPageCart(WebDriver cartDriver) {
+		// TODO Auto-generated method stub
+		HeaderPageCart = cartDriver.findElement(By.xpath(".//*[@id='toCheckOut']"));
+		message = "元素名称是："+ButtonToCart.getText()+"  "+"获取的元素路径是："+".//*[@id='toCheckOut']";
+		printLog(message);
+		return ButtonToCart;
+	}
+
+
+	
+	
+	/**
+	 * 获取过渡页的图标
+	 */
+	public static WebElement getFooderPageCart(WebDriver cartDriver) {
+		// TODO Auto-generated method stub
+		FooderPageCart = cartDriver.findElement(By.xpath(".//*[@id='toCheckOut']"));
+		message = "元素名称是："+ButtonToCart.getText()+"  "+"获取的元素路径是："+".//*[@id='toCheckOut']";
+		printLog(message);
+		return ButtonToCart;
+	}
+	
 	/**
 	 * 负责打印日志的方法。
 	 * @author 700sfriend

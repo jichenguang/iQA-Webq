@@ -392,7 +392,7 @@ public class BasePage {
 	                    // 打印响应内容长度    
 	                    log.info("Response content length: " + entity.getContentLength());  
 	                    // 打印响应内容    
-	                    log.info("Response content: " + EntityUtils.toString(entity));  
+//	                    log.info("Response content: " + EntityUtils.toString(entity));  
 	                }  
 	                log.info("------------------------------------");  
 	            } finally {  
