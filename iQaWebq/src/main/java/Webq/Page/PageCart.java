@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import Webq.Element.ElementPageAd;
 import Webq.Element.ElementPageCart;
+import Webq.Element.ElementPageCart;
 import Webq.Element.ElementPageProduct;
 import Webq.Element.ElementPageTransitional;
 
@@ -13,20 +14,17 @@ import Webq.Element.ElementPageTransitional;
 public class PageCart {
 		
 	
-	static PageLogin loginPage;
-	static WebDriver cartDriver; 
-	static JavascriptExecutor jse; 
-	/**
-	 * @author 700sfriend
-	 * 这个log必须是静态的，那么我只能用PageCart.class来取代ew Log(this.getClass())的写法。
-	 * 效果是一样的。
-	 */	
-	protected static forLoggerPage log = new forLoggerPage(PageCart.class);
-	
+		static PageLogin loginPage;
+		static WebDriver cartDriver; 
+		static JavascriptExecutor jse; 
+		/**
+		 * @author 700sfriend
+		 * 这个log必须是静态的，那么我只能用PageCart.class来取代ew Log(this.getClass())的写法。
+		 * 效果是一样的。
+		 */	
+		protected static forLoggerPage log = new forLoggerPage(PageCart.class);		
 
-	
-	
-	
+		
 		public static void ActionCart(WebDriver driver) throws InterruptedException{
 			cartDriver = driver;
 			jse= (JavascriptExecutor)driver; 
@@ -40,12 +38,38 @@ public class PageCart {
 			CartSuccess();
 			IsOverCart();
 			ToCart();
-			CartToOrder();
-
-			
-			
+			CartCrease();
+			CartToOrder();		
 		}
-	
+		
+		
+		
+		
+		/**
+		 * 购物车控制数量加减的方法
+		 * 			decrease -
+		 * 			increase +
+		 */
+		private static void CartCrease() {
+			// TODO Auto-generated method stub
+			WebElement ButtonDecrease = ElementPageCart.getButtonDecrease(cartDriver);
+			WebElement ButtonIncrease = ElementPageCart.getButtoIncrease(cartDriver);
+			if(ButtonDecrease.getText()!=null&ButtonIncrease.getText()!=null){
+				log.info("增加商品的数量为1");
+				try{
+					jse.executeScript("arguments[0].click();", ButtonDecrease);
+				}catch(Exception e){
+					log.error("增加商品失败！");
+				}
+				log.info("减少商品的数量为1");	
+				try{
+				jse.executeScript("arguments[0].click();", ButtonIncrease);	
+				}catch(Exception e){
+					log.error("减少商品失败！");
+				}
+			}		
+		}
+
 		/**
 		 * action:打开商品页
 		 * @param driver
@@ -243,7 +267,7 @@ public class PageCart {
 		// TODO Auto-generated method stub			
 			WebElement ButtonToCart = ElementPageTransitional.getButtonToCart(cartDriver);			
 			if(ButtonToCart!=null){
-			System.out.println("点击:"+ButtonToCart.getText());
+			System.out.println("点击去购物车:"+ButtonToCart.getText());
 			jse.executeScript("arguments[0].click();", ButtonToCart); 
 			}else{
 				System.out.println("没去成购物车");
@@ -259,7 +283,7 @@ public class PageCart {
 		public static void CartToOrder() throws InterruptedException {
 		// TODO Auto-generated method stub
 			System.out.println("点击“去结算”");
-			WebElement ButtonCartToOrder = ElementPageCart.getButtonCartToOrder(cartDriver);
+			WebElement ButtonCartToOrder = ElementPageCartSummer.getButtonCartToOrder(cartDriver);
 			ButtonCartToOrder.click();
 			jse.executeScript("arguments[0].click();", ButtonCartToOrder); 
 		}
