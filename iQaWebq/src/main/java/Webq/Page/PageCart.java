@@ -267,7 +267,7 @@ public class PageCart {
 		// TODO Auto-generated method stub			
 			WebElement ButtonToCart = ElementPageTransitional.getButtonToCart(cartDriver);			
 			if(ButtonToCart!=null){
-			System.out.println("点击:"+ButtonToCart.getText());
+			System.out.println("点击去购物车:"+ButtonToCart.getText());
 			jse.executeScript("arguments[0].click();", ButtonToCart); 
 			}else{
 				System.out.println("没去成购物车");
