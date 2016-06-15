@@ -38,7 +38,7 @@ public class PageCart {
 			CartSuccess();
 			IsOverCart();
 			ToCart();
-			CartCrease();
+//			CartCrease();
 			CartToOrder();		
 		}
 		
