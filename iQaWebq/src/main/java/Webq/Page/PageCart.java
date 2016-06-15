@@ -283,7 +283,7 @@ public class PageCart {
 		public static void CartToOrder() throws InterruptedException {
 		// TODO Auto-generated method stub
 			System.out.println("点击“去结算”");
-			WebElement ButtonCartToOrder = ElementPageCartSummer.getButtonCartToOrder(cartDriver);
+			WebElement ButtonCartToOrder = ElementPageCart.getButtonCartToOrder(cartDriver);
 			ButtonCartToOrder.click();
 			jse.executeScript("arguments[0].click();", ButtonCartToOrder); 
 		}
