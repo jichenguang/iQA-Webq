@@ -39,7 +39,7 @@ import Webq.Page.forLoggerPage;
 			/**
 			 * 库存不足对话框；
 			 */
-			private static WebElement ButtonNoEnunghPr = null;
+			public static WebElement ButtonNoEnunghPr = null;
 			
 			/**
 			 * 对话框文本
@@ -65,6 +65,7 @@ import Webq.Page.forLoggerPage;
 			 * 商品信息-颜色的Base路径
 			 */
 			private static String BaseXpathButtonColour;
+			
 			/**
 			 * 商品信息-颜色的Base路径
 			 */			
@@ -98,7 +99,7 @@ import Webq.Page.forLoggerPage;
 			 */
 			public static WebElement getButtonNoEnunghPr(WebDriver cartDriver) {
 				// TODO Auto-generated method stub
-				BaseXpathButtonNoEnunghPrPath = "html/body/div[2]/div[3]";
+				BaseXpathButtonNoEnunghPrPath = ".//div[@class = 'popwin']";
 				ButtonNoEnunghPr = cartDriver.findElement(By.xpath(BaseXpathButtonNoEnunghPrPath));
 				message = "元素名称是："+ButtonNoEnunghPr.getClass()+"  "+"获取的元素路径是："+ BaseXpathButtonNoEnunghPrPath;
 				printLog(message);

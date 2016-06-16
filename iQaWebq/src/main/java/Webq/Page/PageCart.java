@@ -22,48 +22,56 @@ public class PageCart {
 		 * 这个log必须是静态的，那么我只能用PageCart.class来取代ew Log(this.getClass())的写法。
 		 * 效果是一样的。
 		 */	
-		protected static forLoggerPage log = new forLoggerPage(PageCart.class);		
+		protected static forLoggerPage log = new forLoggerPage(PageCart.class);
+		
+		
+		
 
 		
-		public static void ActionCart(WebDriver driver) throws InterruptedException{
+		public static  void ActionCart(WebDriver driver) throws InterruptedException{
 			cartDriver = driver;
 			jse= (JavascriptExecutor)driver; 
+			System.out.println("!@!@!@!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");			
 			
-//			购物车流程
+			
+			/*购物车流程*/
 			openProduct();
 			checkSellOnce();
-			IsButtonNoEnunghPr();			
-			checkColer();			
-			ButtonAddCart();			
+			ButtonAddCart();
+			if(TaskPr()!=true){
+				checkColer();
+				ButtonAddCart();
+			}else{
+				log.info("加入购物车的流程正常。");
+			}
 			CartSuccess();
 			IsOverCart();
 			ToCart();
-//			CartCrease();
+			CartCrease();
 			CartToOrder();		
 		}
-		
-		
-		
-		
+	
 		/**
-		 * 购物车控制数量加减的方法
+		 * 购物车:控制数量加减的方法
 		 * 			decrease -
 		 * 			increase +
 		 */
 		private static void CartCrease() {
 			// TODO Auto-generated method stub
-			WebElement ButtonDecrease = ElementPageCart.getButtonDecrease(cartDriver);
-			WebElement ButtonIncrease = ElementPageCart.getButtoIncrease(cartDriver);
+//			ElementPageCart.getBasePathElementCartList(cartDriver);
+			ElementPageCart elemPageCart = new ElementPageCart(cartDriver);
+			WebElement ButtonDecrease = elemPageCart.getButtonIncrease();
+			WebElement ButtonIncrease = elemPageCart.getButtoDecrease();
 			if(ButtonDecrease.getText()!=null&ButtonIncrease.getText()!=null){
 				log.info("增加商品的数量为1");
 				try{
-					jse.executeScript("arguments[0].click();", ButtonDecrease);
+					jse.executeScript("arguments[0].click();", ButtonIncrease);
 				}catch(Exception e){
 					log.error("增加商品失败！");
 				}
 				log.info("减少商品的数量为1");	
 				try{
-				jse.executeScript("arguments[0].click();", ButtonIncrease);	
+				jse.executeScript("arguments[0].click();", ButtonDecrease);	
 				}catch(Exception e){
 					log.error("减少商品失败！");
 				}
@@ -111,7 +119,8 @@ public class PageCart {
 			WebElement addcartButton = ElementPageProduct.getAddcartButton(cartDriver);
 			if(addcartButton.getText()!=null){
 			System.out.println("点击:"+addcartButton.getText());	
-			jse.executeScript("arguments[0].click();", addcartButton);  
+			jse.executeScript("arguments[0].click();", addcartButton); 
+			log.info("已经点击加入购物车按钮");
 			}
 		}
 		
@@ -119,30 +128,51 @@ public class PageCart {
 		/**
 		 * action:商品详情页,判断库存不足
 		 * @return 
+		 * @throws InterruptedException 
 		 */
-		public static Boolean IsButtonNoEnunghPr(){
-			try {
-				ButtonAddCart();
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+		public static Boolean IsButtonNoEnunghPr() throws InterruptedException{				
 			@SuppressWarnings("unused")
 			WebElement ButtonNoEnunghPr = ElementPageProduct.getButtonNoEnunghPr(cartDriver);
 			WebElement buttonSorryText = ElementPageProduct.getTextSorryCart(cartDriver);
-			WebElement buttonConfirm = ElementPageProduct.getButtonConfirm(cartDriver);
+			
+			
 			if(buttonSorryText != null){
+				Thread.sleep(1000);
 				log.info(buttonSorryText.getText());
-				jse.executeScript("arguments[0].click();", buttonConfirm);
-//				checkColer();
-			}else{
-				log.info("库存信息正常。");
-				return false;
-			}
-			return true;
+				return true;
+				}else{
+					log.info("库存信息正常。");
+					return false;
+					}
+			
 		};
 		
+		/**
+		 * 操作库存不足的对话框
+		 */
+		private static void clickYes() {
+			// TODO Auto-generated method stub
+			WebElement buttonConfirm = ElementPageProduct.getButtonConfirm(cartDriver);
+			jse.executeScript("arguments[0].click();", buttonConfirm);
+		}
 		
+		
+		/**
+		 * 处理库存不足信息
+		 * @throws InterruptedException
+		 */
+		private static boolean TaskPr() throws InterruptedException {
+			// TODO Auto-generated method stub
+			if(IsButtonNoEnunghPr()){
+				clickYes();
+				log.info("重新选择商品！");
+				return false;
+			}else{
+				log.info("库存充足！");
+				return true;
+			}			
+		}
+
 		
 		
 		/**
@@ -239,8 +269,7 @@ public class PageCart {
 		public static WebElement CartSuccess() {
 		// TODO Auto-generated method stub
 			WebElement checkText = ElementPageTransitional.getCheckText(cartDriver);			
-			return checkText;
-		   
+			return checkText;		   
 		}
 		
 
