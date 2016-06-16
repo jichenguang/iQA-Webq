@@ -122,7 +122,7 @@ public class ElementPageCart {
 	 */
 	public WebElement getPathCartProTabletr() {
 		// TODO Auto-generated method stub
-		int i = 3;
+		int i = 2;
 		PathCartProTabletr = PathCartProTable + "//tr["+i+"]";
 		ElementCartProTabletr = cDriver.findElement(By.xpath(PathCartProTabletr));
 		message = "元素名称是："+ElementCartProTabletr.getText()+"  "+"获取的元素路径是："+PathCartProTabletr;
