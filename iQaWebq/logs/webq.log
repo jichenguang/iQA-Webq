@@ -1,77 +1,11 @@
-[INFO ] 2016-06-16 14:21:03,461 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：金秋黄
-[INFO ] 2016-06-16 14:21:03,475 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2016-06-16 14:21:03,486 Webq.Page.PageCart - Webq.Page.PageCart: 选择的颜色是： 金秋黄
-[INFO ] 2016-06-16 14:21:03,687 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2016-06-16 14:21:03,687 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：金秋黄  获取的元素路径是：.//*[@id='buyMod']//div[@id='selecTedColor']
-[INFO ] 2016-06-16 14:21:03,687 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2016-06-16 14:21:03,707 Webq.Page.PageCart - Webq.Page.PageCart: 当前的颜色是：金秋黄
-[INFO ] 2016-06-16 14:21:03,748 Webq.Page.PageCart - Webq.Page.PageCart: 菜单未打开
-[INFO ] 2016-06-16 14:21:03,749 Webq.Page.PageCart - Webq.Page.PageCart: 当前的颜色与选择的金秋黄色一致！
-[INFO ] 2016-06-16 14:21:03,773 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2016-06-16 14:21:03,773 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：加入购物车  获取的元素路径是：.//*[@id='add_cart']
-[INFO ] 2016-06-16 14:21:03,774 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2016-06-16 14:21:03,818 Webq.Page.PageCart - Webq.Page.PageCart: 已经点击加入购物车按钮
-[INFO ] 2016-06-16 14:21:04,570 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:04,570 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：商品已经成功加入购物车！  获取的元素路径是：html/body/div[2]/div[1]/div/p[2]
-[INFO ] 2016-06-16 14:21:04,571 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:04,587 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:04,588 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：商品已经成功加入购物车！  获取的元素路径是：html/body/div[2]/div[1]/div/p[2]
-[INFO ] 2016-06-16 14:21:04,588 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:04,607 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:04,607 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：去购物车结算  获取的元素路径是：.//*[@id='toCheckOut']
-[INFO ] 2016-06-16 14:21:04,608 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:05,076 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:05,076 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：cartList  获取的元素路径是：.//div[@id='cartList']
-[INFO ] 2016-06-16 14:21:05,077 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:05,103 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:05,104 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：gridtable  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']
-[INFO ] 2016-06-16 14:21:05,106 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:05,223 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:05,225 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：后街 金秋黄 M
-2499.00
-7497.00  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[3]
-[INFO ] 2016-06-16 14:21:05,225 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:05,244 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:05,244 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：cart-add  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[3]//a[@class = 'cart-add']
-[INFO ] 2016-06-16 14:21:05,245 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:05,262 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:05,262 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：cart-sub  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[3]//a[@class = 'cart-sub']
-[INFO ] 2016-06-16 14:21:05,262 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:05,289 Webq.Page.PageCart - Webq.Page.PageCart: 增加商品的数量为1
-[INFO ] 2016-06-16 14:21:05,601 Webq.Page.PageCart - Webq.Page.PageCart: 减少商品的数量为1
-[INFO ] 2016-06-16 14:21:06,021 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:06,022 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：结算  获取的元素路径是：.//*[@id='linkToPayPage']
-[INFO ] 2016-06-16 14:21:06,022 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2016-06-16 14:21:06,666 Webq.Element.ElementPageOrder - Webq.Element.ElementPageOrder: ########
-[INFO ] 2016-06-16 14:21:06,667 Webq.Element.ElementPageOrder - Webq.Element.ElementPageOrder: 元素名称是：提交订单  获取的元素路径是：.//*[@id='submitsection']
-[INFO ] 2016-06-16 14:21:06,667 Webq.Element.ElementPageOrder - Webq.Element.ElementPageOrder: ########
-[INFO ] 2016-06-16 14:21:08,330 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: ########
-[INFO ] 2016-06-16 14:21:08,331 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: 元素名称是：  .//*[@id='ContentPlaceHolder1_btnPay']
-[INFO ] 2016-06-16 14:21:08,331 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: ########
-[INFO ] 2016-06-16 14:21:09,130 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: ########
-[INFO ] 2016-06-16 14:21:09,140 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: 元素名称是：  .//*[@id='ContentPlaceHolder1_btnPay']
-[INFO ] 2016-06-16 14:21:09,141 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: ########
-[INFO ] 2016-06-16 14:21:12,775 Webq.Page.PageOrderLists - Webq.Page.PageOrderLists: 进入订单列表页
-[INFO ] 2016-06-16 14:21:15,532 Webq.Page.PageOrderLists - Webq.Page.PageOrderLists: 成功进入订单列表页
-[INFO ] 2016-06-16 14:21:15,828 Webq.Element.ElementPageOrderLists - Webq.Element.ElementPageOrderLists: ########
-[INFO ] 2016-06-16 14:21:15,829 Webq.Element.ElementPageOrderLists - Webq.Element.ElementPageOrderLists: 元素名称是：查看详情  .//*[@id='orderList']/div[1]/div[4]/div[3]/a
-[INFO ] 2016-06-16 14:21:15,829 Webq.Element.ElementPageOrderLists - Webq.Element.ElementPageOrderLists: ########
-[INFO ] 2016-06-16 14:21:23,028 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2016-06-16 14:21:23,028 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7006770080270  .//*[@id='orderNumber']
-[INFO ] 2016-06-16 14:21:23,029 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2016-06-16 14:21:23,069 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2016-06-16 14:21:23,070 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7006770080270  .//*[@id='orderNumber']
-[INFO ] 2016-06-16 14:21:23,070 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2016-06-16 14:21:23,114 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2016-06-16 14:21:23,115 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：取消订单  .//*[@id='btnCancelOrder']
-[INFO ] 2016-06-16 14:21:23,115 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2016-06-16 14:21:29,218 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2016-06-16 14:21:29,219 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：  .//*[@id='btnDialogBySHFConfirm']
-[INFO ] 2016-06-16 14:21:29,220 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2016-06-16 14:21:32,297 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2016-06-16 14:21:32,297 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：已取消  .//*[@id='orderStatus']
-[INFO ] 2016-06-16 14:21:32,298 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2016-06-16 14:21:32,318 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Success
-[INFO ] 2016-06-16 14:21:32,320 Webq.Case.TestStoreWebq - Webq.Case.TestStoreWebq: Stop WebDriver
-[INFO ] 2016-06-16 14:21:32,670 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Finish
-[INFO ] 2016-06-16 14:21:32,671 Webq.utils.TestNGListener - Webq.utils.TestNGListener: PassedTests = actionCartSubCancleOrder
+[INFO ] 2016-06-16 15:16:50,201 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
+[INFO ] 2016-06-16 15:16:56,338 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
+[INFO ] 2016-06-16 15:16:56,339 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：  .//*[@id='btnDialogBySHFConfirm']
+[INFO ] 2016-06-16 15:16:56,339 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
+[INFO ] 2016-06-16 15:16:59,417 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
+[INFO ] 2016-06-16 15:16:59,417 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：已取消  .//*[@id='orderStatus']
+[INFO ] 2016-06-16 15:16:59,417 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
+[INFO ] 2016-06-16 15:16:59,434 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Success
+[INFO ] 2016-06-16 15:16:59,438 Webq.Case.TestStoreWebq - Webq.Case.TestStoreWebq: Stop WebDriver
+[INFO ] 2016-06-16 15:17:00,146 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Finish
+[INFO ] 2016-06-16 15:17:00,147 Webq.utils.TestNGListener - Webq.utils.TestNGListener: PassedTests = actionCartSubCancleOrder

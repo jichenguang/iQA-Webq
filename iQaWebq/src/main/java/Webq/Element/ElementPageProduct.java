@@ -1,7 +1,6 @@
 package Webq.Element;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -74,10 +73,24 @@ import Webq.Page.forLoggerPage;
 			private static WebElement UlChooseColour;
 			private static ArrayList<WebElement> ColourChoosed = new ArrayList<WebElement>();;
 			private static String PathColourChoosed;
+			private static WebDriver pDriver = null;
 
 
-			
-			
+			/**
+			 * 构造函数
+			 * @param cartDriver
+			 */			
+			public ElementPageProduct(WebDriver cartDriver) {
+				// TODO Auto-generated constructor stub
+				this.pDriver = cartDriver;
+				
+				ButtonNoEnunghPr = this.getButtonNoEnunghPr();
+				TextSorryCart = this.getTextSorryCart();
+				ButtonConfirm = this.getButtonConfirm();
+			}
+
+
+
 			/**
 			 * 获取“加入购物车”按钮
 			 * @param cartDriver
@@ -97,11 +110,11 @@ import Webq.Page.forLoggerPage;
 			 * @param cartDriver
 			 * @return
 			 */
-			public static WebElement getButtonNoEnunghPr(WebDriver cartDriver) {
-				// TODO Auto-generated method stub
-				BaseXpathButtonNoEnunghPrPath = ".//div[@class = 'popwin']";
-				ButtonNoEnunghPr = cartDriver.findElement(By.xpath(BaseXpathButtonNoEnunghPrPath));
-				message = "元素名称是："+ButtonNoEnunghPr.getClass()+"  "+"获取的元素路径是："+ BaseXpathButtonNoEnunghPrPath;
+			public static WebElement getButtonNoEnunghPr() {
+				// TODO Auto-generated method stub	
+				BaseXpathButtonNoEnunghPrPath = ".//div[@class='popwin']";
+				ButtonNoEnunghPr = pDriver.findElement(By.xpath(BaseXpathButtonNoEnunghPrPath));				
+				message = "元素名称是："+ButtonNoEnunghPr.getAttribute("class")+"  "+"获取的元素路径是："+ BaseXpathButtonNoEnunghPrPath;
 				printLog(message);
 				return ButtonNoEnunghPr;		
 			}
@@ -111,10 +124,10 @@ import Webq.Page.forLoggerPage;
 			 * @param cartDriver
 			 * @return
 			 */
-			public static WebElement getTextSorryCart(WebDriver cartDriver){
+			public static WebElement getTextSorryCart(){
 //				rowXpath+//span[@class="cart-oper"]
 				String TextSorryCartPath = BaseXpathButtonNoEnunghPrPath + "//div[@class ='popwin-content']";
-				TextSorryCart = cartDriver.findElement(By.xpath(TextSorryCartPath));
+				TextSorryCart = pDriver.findElement(By.xpath(TextSorryCartPath));
 				message = "元素名称是："+TextSorryCart.getText()+"  "+"获取的元素路径是："+ TextSorryCartPath;
 				printLog(message);
 				return TextSorryCart;		
@@ -126,10 +139,10 @@ import Webq.Page.forLoggerPage;
 			 * @param cartDriver
 			 * @return
 			 */
-			public static WebElement getButtonConfirm(WebDriver cartDriver){
+			public static WebElement getButtonConfirm(){
 //				ButtonConfirm = ButtonNoEnunghPr.findElement(By.className("popwin-btn"));
 				String ButtonConfirmPath = BaseXpathButtonNoEnunghPrPath + "//div[@class = 'popwin-btn']";
-				ButtonConfirm = cartDriver.findElement(By.xpath(ButtonConfirmPath));
+				ButtonConfirm = pDriver.findElement(By.xpath(ButtonConfirmPath));
 				message = "元素名称是："+ButtonConfirm.getText()+"  "+"获取的元素路径是："+ ButtonConfirmPath;
 				printLog(message);
 				return ButtonConfirm;		

@@ -93,14 +93,32 @@
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageCart: 已经点击加入购物车按钮
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：class org.openqa.selenium.remote.RemoteWebElement  获取的元素路径是：.//div[@class = 'popwin']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：popwin  获取的元素路径是：.//div[@class='popwin']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：抱歉,库存不足,请选购其他商品。  获取的元素路径是：.//div[@class = 'popwin']//div[@class ='popwin-content']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：抱歉,库存不足,请选购其他商品。  获取的元素路径是：.//div[@class='popwin']//div[@class ='popwin-content']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：确定  获取的元素路径是：.//div[@class='popwin']//div[@class = 'popwin-btn']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：popwin  获取的元素路径是：.//div[@class='popwin']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：抱歉,库存不足,请选购其他商品。  获取的元素路径是：.//div[@class='popwin']//div[@class ='popwin-content']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageCart: 抱歉,库存不足,请选购其他商品。
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：确定  获取的元素路径是：.//div[@class = 'popwin']//div[@class = 'popwin-btn']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：popwin  获取的元素路径是：.//div[@class='popwin']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：抱歉,库存不足,请选购其他商品。  获取的元素路径是：.//div[@class='popwin']//div[@class ='popwin-content']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：确定  获取的元素路径是：.//div[@class='popwin']//div[@class = 'popwin-btn']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：确定  获取的元素路径是：.//div[@class='popwin']//div[@class = 'popwin-btn']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageCart: 重新选择商品！
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
@@ -169,9 +187,9 @@
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：gridtable  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：后街 金秋黄 M
-2499.00
-7497.00  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[3]
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：后街 大地棕 L
+1.00
+2.00  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[3]
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：cart-add  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[3]//a[@class = 'cart-add']
@@ -199,10 +217,10 @@
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: 元素名称是：查看详情  .//*[@id='orderList']/div[1]/div[4]/div[3]/a
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7006770080270  .//*[@id='orderNumber']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7007580079371  .//*[@id='orderNumber']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7006770080270  .//*[@id='orderNumber']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7007580079371  .//*[@id='orderNumber']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：取消订单  .//*[@id='btnCancelOrder']

@@ -51,33 +51,7 @@ public class PageCart {
 			CartToOrder();		
 		}
 	
-		/**
-		 * 购物车:控制数量加减的方法
-		 * 			decrease -
-		 * 			increase +
-		 */
-		private static void CartCrease() {
-			// TODO Auto-generated method stub
-//			ElementPageCart.getBasePathElementCartList(cartDriver);
-			ElementPageCart elemPageCart = new ElementPageCart(cartDriver);
-			WebElement ButtonDecrease = elemPageCart.getButtonIncrease();
-			WebElement ButtonIncrease = elemPageCart.getButtoDecrease();
-			if(ButtonDecrease.getText()!=null&ButtonIncrease.getText()!=null){
-				log.info("增加商品的数量为1");
-				try{
-					jse.executeScript("arguments[0].click();", ButtonIncrease);
-				}catch(Exception e){
-					log.error("增加商品失败！");
-				}
-				log.info("减少商品的数量为1");	
-				try{
-				jse.executeScript("arguments[0].click();", ButtonDecrease);	
-				}catch(Exception e){
-					log.error("减少商品失败！");
-				}
-			}		
-		}
-
+		
 		/**
 		 * action:打开商品页
 		 * @param driver
@@ -132,8 +106,9 @@ public class PageCart {
 		 */
 		public static Boolean IsButtonNoEnunghPr() throws InterruptedException{				
 			@SuppressWarnings("unused")
-			WebElement ButtonNoEnunghPr = ElementPageProduct.getButtonNoEnunghPr(cartDriver);
-			WebElement buttonSorryText = ElementPageProduct.getTextSorryCart(cartDriver);
+			ElementPageProduct elemPagePro = new ElementPageProduct(cartDriver);
+			WebElement ButtonNoEnunghPr = elemPagePro.getButtonNoEnunghPr();
+			WebElement buttonSorryText = elemPagePro.getTextSorryCart();
 			
 			
 			if(buttonSorryText != null){
@@ -152,7 +127,8 @@ public class PageCart {
 		 */
 		private static void clickYes() {
 			// TODO Auto-generated method stub
-			WebElement buttonConfirm = ElementPageProduct.getButtonConfirm(cartDriver);
+			ElementPageProduct elemPagePro = new ElementPageProduct(cartDriver);
+			WebElement buttonConfirm = elemPagePro.getButtonConfirm();
 			jse.executeScript("arguments[0].click();", buttonConfirm);
 		}
 		
@@ -302,6 +278,35 @@ public class PageCart {
 				System.out.println("没去成购物车");
 			}
 		}
+		
+		
+		/**
+		 * 购物车:控制数量加减的方法
+		 * 			decrease -
+		 * 			increase +
+		 */
+		private static void CartCrease() {
+			// TODO Auto-generated method stub
+			/*ElementPageCart.getBasePathElementCartList(cartDriver);*/
+			ElementPageCart elemPageCart = new ElementPageCart(cartDriver);
+			WebElement ButtonDecrease = elemPageCart.getButtonIncrease();
+			WebElement ButtonIncrease = elemPageCart.getButtoDecrease();
+			if(ButtonDecrease.getText()!=null&ButtonIncrease.getText()!=null){
+				log.info("增加商品的数量为1");
+				try{
+					jse.executeScript("arguments[0].click();", ButtonIncrease);
+				}catch(Exception e){
+					log.error("增加商品失败！");
+				}
+				log.info("减少商品的数量为1");	
+				try{
+				jse.executeScript("arguments[0].click();", ButtonDecrease);	
+				}catch(Exception e){
+					log.error("减少商品失败！");
+				}
+			}		
+		}
+
 		
 		/**
 		 * action:从购物车去结算页
