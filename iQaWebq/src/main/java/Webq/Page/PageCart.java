@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 
 import Webq.Element.ElementPageAd;
 import Webq.Element.ElementPageCart;
-import Webq.Element.ElementPageCart;
 import Webq.Element.ElementPageProduct;
 import Webq.Element.ElementPageTransitional;
 
@@ -105,9 +104,9 @@ public class PageCart {
 		 * @throws InterruptedException 
 		 */
 		public static Boolean IsButtonNoEnunghPr() throws InterruptedException{				
-			@SuppressWarnings("unused")
+			
 			ElementPageProduct elemPagePro = new ElementPageProduct(cartDriver);
-			WebElement ButtonNoEnunghPr = elemPagePro.getButtonNoEnunghPr();
+			WebElement buttonNoEnunghpr = elemPagePro.getButtonNoEnunghPr();
 			WebElement buttonSorryText = elemPagePro.getTextSorryCart();
 			
 			

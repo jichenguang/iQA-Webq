@@ -73,6 +73,8 @@ import Webq.Page.forLoggerPage;
 			private static WebElement UlChooseColour;
 			private static ArrayList<WebElement> ColourChoosed = new ArrayList<WebElement>();;
 			private static String PathColourChoosed;
+			
+			
 			private static WebDriver pDriver = null;
 
 
@@ -110,7 +112,7 @@ import Webq.Page.forLoggerPage;
 			 * @param cartDriver
 			 * @return
 			 */
-			public static WebElement getButtonNoEnunghPr() {
+			public WebElement getButtonNoEnunghPr() {
 				// TODO Auto-generated method stub	
 				BaseXpathButtonNoEnunghPrPath = ".//div[@class='popwin']";
 				ButtonNoEnunghPr = pDriver.findElement(By.xpath(BaseXpathButtonNoEnunghPrPath));				
@@ -124,7 +126,7 @@ import Webq.Page.forLoggerPage;
 			 * @param cartDriver
 			 * @return
 			 */
-			public static WebElement getTextSorryCart(){
+			public WebElement getTextSorryCart(){
 //				rowXpath+//span[@class="cart-oper"]
 				String TextSorryCartPath = BaseXpathButtonNoEnunghPrPath + "//div[@class ='popwin-content']";
 				TextSorryCart = pDriver.findElement(By.xpath(TextSorryCartPath));
@@ -139,7 +141,7 @@ import Webq.Page.forLoggerPage;
 			 * @param cartDriver
 			 * @return
 			 */
-			public static WebElement getButtonConfirm(){
+			public WebElement getButtonConfirm(){
 //				ButtonConfirm = ButtonNoEnunghPr.findElement(By.className("popwin-btn"));
 				String ButtonConfirmPath = BaseXpathButtonNoEnunghPrPath + "//div[@class = 'popwin-btn']";
 				ButtonConfirm = pDriver.findElement(By.xpath(ButtonConfirmPath));
