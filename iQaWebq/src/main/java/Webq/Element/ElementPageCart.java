@@ -55,7 +55,7 @@ public class ElementPageCart {
 		ElementCartList = this.getBasePathElementCartList();
 		ElementCartProTable = this.getPathCartProTable();
 		ElementCartProTabletr = this.getPathCartProTabletr();
-		ElementC
+		
 	}
 	
 	
