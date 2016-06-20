@@ -1,5 +1,5 @@
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Start
-%$ INFO  Webq.utils.Log 25 info - Webq.Case.TestStoreWebq: Start WebDriver
+%$ INFO  Webq.utils.Log 25 info - Webq.Case.TestExWebq: Start WebDriver
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finsh
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: Webq.Page.PageLogin
 %$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: /Users/700sfriend/git/iQA-Webq/iQaWebq
@@ -88,73 +88,13 @@
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：立即购买  获取的元素路径是：html/body/div[2]/div/div/div[2]/a
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：加入购物车  获取的元素路径是：.//*[@id='add_cart']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 已经点击加入购物车按钮
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 商品库存状态正常。
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：商品已经成功加入购物车！  获取的元素路径是：html/body/div[2]/div[1]/div/p[2]
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：商品已经成功加入购物车！  获取的元素路径是：html/body/div[2]/div[1]/div/p[2]
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：去购物车结算  获取的元素路径是：.//*[@id='toCheckOut']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：cartList  获取的元素路径是：.//div[@id='cartList']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：gridtable  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：后街 暮色灰 M
-2499.00
-2499.00  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[2]
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：cart-add  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[2]//a[@class = 'cart-add']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：cart-sub  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[2]//a[@class = 'cart-sub']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageCart: 增加商品的数量为1
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageCart: 减少商品的数量为1
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：结算  获取的元素路径是：.//*[@id='linkToPayPage']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrder: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrder: 元素名称是：提交订单  获取的元素路径是：.//*[@id='submitsection']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrder: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: 元素名称是：  .//*[@id='ContentPlaceHolder1_btnPay']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: 元素名称是：  .//*[@id='ContentPlaceHolder1_btnPay']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageOrderLists: 进入订单列表页
-%$ ERROR Webq.Page.forLoggerPage 42 error - Webq.Page.PageOrderLists: 进入订单列表失败，开始重试！
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageOrderLists: 成功进入订单列表页
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: 元素名称是：查看详情  .//*[@id='orderList']/div[1]/div[4]/div[3]/a
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7008180069532  .//*[@id='orderNumber']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7008180069532  .//*[@id='orderNumber']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：取消订单  .//*[@id='btnCancelOrder']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：  .//*[@id='btnDialogBySHFConfirm']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：已取消  .//*[@id='orderStatus']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Success
-%$ INFO  Webq.utils.Log 25 info - Webq.Case.TestStoreWebq: Stop WebDriver
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 检查结果：一致
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: http://webq.700paper.cn/houjie
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: http://webq.700paper.cn/houjie
+%$ ERROR Webq.utils.Log 41 error - Webq.utils.TestNGListener: Test Failure
+%$ INFO  Webq.utils.Log 25 info - Webq.Case.TestExWebq: /Users/700sfriend/git/iQA-Webq/iQaWebq
+%$ INFO  Webq.utils.Log 25 info - Webq.Case.TestExWebq: save snapshot path is:/Users/700sfriend/git/iQA-Webq/iQaWebqTestExWebq_2016_06_20_16_36_52.png
+%$ INFO  Webq.utils.Log 25 info - Webq.Case.TestExWebq: screen shot finished
+%$ INFO  Webq.utils.Log 25 info - Webq.Case.TestExWebq: Stop WebDriver
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finish
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = actionCartSubCancleOrder
+%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: failedTest = actionCartExProPages

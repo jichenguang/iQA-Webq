@@ -37,7 +37,7 @@ public class DoNavigitionOfPageProduct {
 		 * Do:导航栏对象的操作
 		 * @throws InterruptedException 
 		 */
-		public static void DoNavgitionOfPageProduct() throws InterruptedException {
+		public static void doNavgitionOfPageProduct() throws InterruptedException {
 			// TODO Auto-generated method stub
 			MatterNavigitionOfPageProduct MatterNav = (new MatterMiddleOfPageProduct(driver)).getNavigtition();
 			List<WebElement> NavAdiv = MatterNav.getAdiv();

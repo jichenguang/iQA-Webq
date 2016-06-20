@@ -3,7 +3,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-
+import Webq.Do.DoNavigitionOfPageProduct;
 import Webq.Element.ElementPageProduct;
 
 
@@ -30,23 +30,27 @@ public class PageProduct {
 			cartDriver = driver;
 			jse = (JavascriptExecutor)driver; 
 			
-			/*购物车商品详情页的流程*/
-			ActionfromProtoCart();				
-		}
-	
-		 
-		/**
-		 * 从商品页到购物车页面
-		 * @throws InterruptedException
-		 */
-		public static void ActionfromProtoCart() throws InterruptedException {
-			// TODO Auto-generated method stub
+			DoCheckNavigitinOfPageProduct();
 			ButtonAddCart();
 			CheckStatesStock();	
+		
 		}
+	
+
 
 		
 		
+		private static void DoCheckNavigitinOfPageProduct() throws InterruptedException {
+			// TODO Auto-generated method stub
+			DoNavigitionOfPageProduct doNav = new DoNavigitionOfPageProduct(cartDriver);
+			doNav.doNavgitionOfPageProduct();
+			PageAd.checkSellOnce();
+		}
+
+
+
+
+
 		/**
 		 * PageProduct:商品详情页，加入购物车
 		 * @param driver
