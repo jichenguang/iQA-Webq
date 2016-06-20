@@ -22,7 +22,8 @@
 		<!-- 玩过界活动页 -->		
 		<locator type="ByXpath" timeOut="3" value=".//*[@id='form1']/div[2]">wgjTitl</locator>
 		<!-- 我的首页 -->
-		<locator type="ByXpath" timeOut="3" value="html/body/div[1]/div/div[3]">profile</locator>			
+		<!-- <locator type="ByXpath" timeOut="3" value="html/body/div[1]/div/div[3]">profile</locator> -->		
+		<locator type="ByXpath" timeOut="3" value=".//div[@class = 'user_logined']">profile</locator>	
 		<!-- <locator type="ByXpath" timeOut="3" value="html/body/div[1]/div/ul/li[1]/a">profile</locator> -->	
 		
 		<!-- Stroe从首页切换到登陆页的按钮 -->

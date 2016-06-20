@@ -24,7 +24,7 @@
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: locator Name is wgjTitl
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator timeOut 3
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator value html/body/div[1]/div/div[3]
+%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator value .//div[@class = 'user_logined']
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: locator Name is profile
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator timeOut 30
@@ -55,11 +55,11 @@
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='form1']/div[2]
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: find element By xpath
 %$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: click button
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ！元素名称是：html/body/div[1]/div/div[3]
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：html/body/div[1]/div/div[3]
+%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
+%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: find element By xpath
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ！元素名称是：html/body/div[1]/div/div[3]
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：html/body/div[1]/div/div[3]
+%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
+%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: find element By xpath
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageHome: Webq.Page.PageHome
 %$ INFO  Webq.utils.Log 25 info - Webq.Page.PageHome: /Users/700sfriend/git/iQA-Webq/iQaWebq
@@ -68,7 +68,7 @@
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: page Info is:Webq.Page.PageHome
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator timeOut 3
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator value html/body/div[1]/div/ul/li[1]/a
+%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator value .//*[@id='menus']/li[1]/a
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: locator Name is MainPage
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator timeOut 3
@@ -78,7 +78,7 @@
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageHome: ! 元素的路径是：html/body/div[1]/div/div/div[3]
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageHome: find element By xpath
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageHome: ！元素名称是：MainPage
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageHome: ! 元素的路径是：html/body/div[1]/div/ul/li[1]/a
+%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageHome: ! 元素的路径是：.//*[@id='menus']/li[1]/a
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageHome: find element By xpath
 %$ INFO  Webq.utils.Log 25 info - Webq.Page.PageHome: click button
 %$ INFO  Webq.utils.Log 25 info - Webq.Page.PageHome: 跳转到主页
@@ -134,15 +134,16 @@
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: 元素名称是：  .//*[@id='ContentPlaceHolder1_btnPay']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageOrderLists: 进入订单列表页
+%$ ERROR Webq.Page.forLoggerPage 42 error - Webq.Page.PageOrderLists: 进入订单列表失败，开始重试！
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageOrderLists: 成功进入订单列表页
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: 元素名称是：查看详情  .//*[@id='orderList']/div[1]/div[4]/div[3]/a
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7009170099053  .//*[@id='orderNumber']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7008180069532  .//*[@id='orderNumber']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7009170099053  .//*[@id='orderNumber']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7008180069532  .//*[@id='orderNumber']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：取消订单  .//*[@id='btnCancelOrder']
