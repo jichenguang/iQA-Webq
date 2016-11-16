@@ -19,6 +19,7 @@
         <methods>
           <include name="init"/>
           <include name="stop"/>
+          <include name="TestWap2"/>
           <include name="TestWap3"/>
           <include name="TestWap1"/>
         </methods>

@@ -17,6 +17,7 @@
     <classes>
       <class name="Webq.Case.CaseWebq">
         <methods>
+          <include name="TestWebq2"/>
           <include name="TestWebq1"/>
           <include name="init"/>
           <include name="TestWebq3"/>
