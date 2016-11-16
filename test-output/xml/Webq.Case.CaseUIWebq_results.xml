@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="5"
+           failures="3"
+           errors="0"
+           skipped="0"
+           time="25.453">
+  <properties />
+            <testcase name="TestWebqPageHomeCheckHeadTitle" time="3.632" classname="Webq.Case.CaseUIWebq">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for Webq.Locator.ResolveLocator$1@34997338 (tried for 3 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;localhost&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.3.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a4414cc1-c718-d94f-885b-24c108e7be64"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for Webq.Locator.ResolveLocator$1@34997338 (tried for 3 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'localhost', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.3.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a4414cc1-c718-d94f-885b-24c108e7be64
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:265)
+  Webq.Locator.ResolveLocator.findElement(ResolveLocator.java:72)
+  Webq.Base.WebqBasePage.getPageHead(WebqBasePage.java:130)
+  Webq.Page.WebqPageHome.getHeadPageHome(WebqPageHome.java:94)
+  Webq.Case.CaseUIWebq.TestWebqPageHomeCheckHeadTitle(CaseUIWebq.java:61)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/head/title"}
+Command duration or timeout: 24 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'localhost', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.3.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a4414cc1-c718-d94f-885b-24c108e7be64
+*** Element info: {Using=xpath, value=html/head/title}
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+  Webq.Locator.ResolveLocator.getElement(ResolveLocator.java:126)
+  Webq.Locator.ResolveLocator$1.apply(ResolveLocator.java:77)
+  Webq.Locator.ResolveLocator$1.apply(ResolveLocator.java:1)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+  Webq.Locator.ResolveLocator.findElement(ResolveLocator.java:72)
+  Webq.Base.WebqBasePage.getPageHead(WebqBasePage.java:130)
+  Webq.Page.WebqPageHome.getHeadPageHome(WebqPageHome.java:94)
+  Webq.Case.CaseUIWebq.TestWebqPageHomeCheckHeadTitle(CaseUIWebq.java:61)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/head/title"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'localhost', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+  <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/anonymous7336545359735074125webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+  <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/anonymous7336545359735074125webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/anonymous7336545359735074125webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/anonymous7336545359735074125webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+  <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/anonymous7336545359735074125webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TestWebqPageHomeCheckLogoSize" time="3.276" classname="Webq.Case.CaseUIWebq">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for Webq.Locator.ResolveLocator$1@60d1a32f (tried for 3 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;localhost&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.3.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a4414cc1-c718-d94f-885b-24c108e7be64"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for Webq.Locator.ResolveLocator$1@60d1a32f (tried for 3 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'localhost', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.3.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a4414cc1-c718-d94f-885b-24c108e7be64
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:265)
+  Webq.Locator.ResolveLocator.findElement(ResolveLocator.java:72)
+  Webq.Base.WebqBasePage.getLogoSize(WebqBasePage.java:145)
+  Webq.Page.WebqPageHome.getLogoSize(WebqPageHome.java:108)
+  Webq.Case.CaseUIWebq.TestWebqPageHomeCheckLogoSize(CaseUIWebq.java:72)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//div[@class = 'logo']"}
+Command duration or timeout: 42 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'localhost', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.3.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a4414cc1-c718-d94f-885b-24c108e7be64
+*** Element info: {Using=xpath, value=.//div[@class = 'logo']}
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+  Webq.Locator.ResolveLocator.getElement(ResolveLocator.java:126)
+  Webq.Locator.ResolveLocator$1.apply(ResolveLocator.java:77)
+  Webq.Locator.ResolveLocator$1.apply(ResolveLocator.java:1)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+  Webq.Locator.ResolveLocator.findElement(ResolveLocator.java:72)
+  Webq.Base.WebqBasePage.getLogoSize(WebqBasePage.java:145)
+  Webq.Page.WebqPageHome.getLogoSize(WebqPageHome.java:108)
+  Webq.Case.CaseUIWebq.TestWebqPageHomeCheckLogoSize(CaseUIWebq.java:72)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//div[@class = 'logo']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'localhost', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+  <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/anonymous7336545359735074125webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+  <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/anonymous7336545359735074125webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/anonymous7336545359735074125webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/anonymous7336545359735074125webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+  <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/anonymous7336545359735074125webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TestWebqPageHomeCheckPerUrl" time="3.206" classname="Webq.Case.CaseUIWebq">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for Webq.Locator.ResolveLocator$1@51cd7ffc (tried for 3 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;localhost&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.3.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a4414cc1-c718-d94f-885b-24c108e7be64"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for Webq.Locator.ResolveLocator$1@51cd7ffc (tried for 3 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'localhost', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.3.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a4414cc1-c718-d94f-885b-24c108e7be64
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:265)
+  Webq.Locator.ResolveLocator.findElement(ResolveLocator.java:72)
+  Webq.Base.WebqBasePage.getPerTitle(WebqBasePage.java:166)
+  Webq.Page.WebqPageHome.getPerTitle(WebqPageHome.java:126)
+  Webq.Case.CaseUIWebq.TestWebqPageHomeCheckPerUrl(CaseUIWebq.java:79)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='per']/h4"}
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'localhost', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.3.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a4414cc1-c718-d94f-885b-24c108e7be64
+*** Element info: {Using=xpath, value=.//*[@id='per']/h4}
+  sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+  Webq.Locator.ResolveLocator.getElement(ResolveLocator.java:126)
+  Webq.Locator.ResolveLocator$1.apply(ResolveLocator.java:77)
+  Webq.Locator.ResolveLocator$1.apply(ResolveLocator.java:1)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+  Webq.Locator.ResolveLocator.findElement(ResolveLocator.java:72)
+  Webq.Base.WebqBasePage.getPerTitle(WebqBasePage.java:166)
+  Webq.Page.WebqPageHome.getPerTitle(WebqPageHome.java:126)
+  Webq.Case.CaseUIWebq.TestWebqPageHomeCheckPerUrl(CaseUIWebq.java:79)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='per']/h4"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'localhost', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_66'
+Driver info: driver.version: unknown
+  <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/anonymous7336545359735074125webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+  <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/anonymous7336545359735074125webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/anonymous7336545359735074125webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/anonymous7336545359735074125webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+  <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/xf/kdg8kbhj4fn2_0fpfvbl9v300000gp/T/anonymous7336545359735074125webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="TestWebqPageHomeLoginCheckPresentUrl" time="15.329" classname="Webq.Case.CaseUIWebq" />
+                <testcase name="TestWebqLoginOut" time="0.010" classname="Webq.Case.CaseUIWebq" />
+      
+</testsuite>

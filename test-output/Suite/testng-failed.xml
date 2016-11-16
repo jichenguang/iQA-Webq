@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="TestGroups(failed)" parallel="tests">
+    <classes>
+      <class name="Webq.Case.CaseWebq">
+        <methods>
+          <include name="init"/>
+          <include name="TestWebq3"/>
+          <include name="stop"/>
+        </methods>
+      </class> <!-- Webq.Case.CaseWebq -->
+    </classes>
+  </test> <!-- TestGroups(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="76.618">
+  <properties />
+  
+  
+            <testcase name="TestWebq4" time="0.001" classname="Webq.Case.CaseWebq" />
+                <testcase name="TestWebq3" time="49.937" classname="Webq.Case.CaseWebq" />
+                <testcase name="TestWebq2" time="2.930" classname="Webq.Case.CaseWebq" />
+                <testcase name="TestWebq1" time="23.750" classname="Webq.Case.CaseWebq" />
+      
+</testsuite>

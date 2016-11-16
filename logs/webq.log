@@ -1,0 +1,200 @@
+[INFO ] 2016-11-15 17:42:48,450 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Finsh
+[DEBUG] 2016-11-15 17:42:48,494 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: Webq.Locator.ResolveLocator
+[INFO ] 2016-11-15 17:42:48,495 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/iQaWebq
+[INFO ] 2016-11-15 17:42:48,495 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/iQaWebq/src/main/java/Webq/Locator/ResolveLocator.xml
+[INFO ] 2016-11-15 17:42:48,496 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: Webq.Locator.ResolveLocator
+[INFO ] 2016-11-15 17:42:48,502 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: page Info is:Webq.Locator.ResolveLocator
+[INFO ] 2016-11-15 17:42:48,502 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,503 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,503 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value html/body/div[1]/div/div[3]
+[INFO ] 2016-11-15 17:42:48,504 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is profile
+[INFO ] 2016-11-15 17:42:48,504 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,504 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,505 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value html/body/div[1]/div/div[3]
+[INFO ] 2016-11-15 17:42:48,505 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is profileWap
+[INFO ] 2016-11-15 17:42:48,505 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,506 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,506 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value .//*[@id='menus']/li[1]/a
+[INFO ] 2016-11-15 17:42:48,507 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is MainPage
+[INFO ] 2016-11-15 17:42:48,507 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,508 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,508 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value .//*[@id='header-nav']/li[8]/a
+[INFO ] 2016-11-15 17:42:48,509 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is BBStoStore
+[INFO ] 2016-11-15 17:42:48,509 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,510 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,510 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value html/head/title
+[INFO ] 2016-11-15 17:42:48,510 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is TitleStore
+[INFO ] 2016-11-15 17:42:48,511 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,511 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,511 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value html/head/title
+[INFO ] 2016-11-15 17:42:48,512 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is TitleStoreWap
+[INFO ] 2016-11-15 17:42:48,513 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,514 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,515 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value .//div[@class = 'logo']
+[INFO ] 2016-11-15 17:42:48,515 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is LogoStore
+[INFO ] 2016-11-15 17:42:48,515 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,516 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,516 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value html/body/section[1]/a[2]/span
+[INFO ] 2016-11-15 17:42:48,516 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is LogoStoreWap
+[INFO ] 2016-11-15 17:42:48,517 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,517 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,517 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value .//div[@class = 'content-holder graybg product-detail-page']
+[INFO ] 2016-11-15 17:42:48,518 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is MiddleDiv
+[INFO ] 2016-11-15 17:42:48,518 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,518 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,519 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value .//*[@id='per']
+[INFO ] 2016-11-15 17:42:48,519 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is Per
+[INFO ] 2016-11-15 17:42:48,520 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,520 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,521 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value .//*[@id='per']/h4
+[INFO ] 2016-11-15 17:42:48,521 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is PerTitle
+[INFO ] 2016-11-15 17:42:48,521 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,522 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,523 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value html/body/section[3]/a[3]
+[INFO ] 2016-11-15 17:42:48,523 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is PerTitleWap
+[INFO ] 2016-11-15 17:42:48,524 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,524 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,525 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value .//*[@id='per']/div/a
+[INFO ] 2016-11-15 17:42:48,525 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is PerBtn
+[INFO ] 2016-11-15 17:42:48,526 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,527 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,528 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value html/body/section[3]/a[3]
+[INFO ] 2016-11-15 17:42:48,529 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is PerBtnWap
+[INFO ] 2016-11-15 17:42:48,530 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,530 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,530 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value .//section[@class = 'menu-bar']
+[INFO ] 2016-11-15 17:42:48,531 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is PathDivMenuBar
+[INFO ] 2016-11-15 17:42:48,532 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:48,532 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:48,533 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: get locator value /a
+[INFO ] 2016-11-15 17:42:48,534 Webq.utils.WebqxmlUtils - Webq.utils.WebqxmlUtils: locator Name is PathSubDivMenuBar
+[DEBUG] 2016-11-15 17:42:48,534 Webq.Page.WebqPageHome - Webq.Page.WebqPageHome: Webq.Page.WebqPageHome
+[DEBUG] 2016-11-15 17:42:48,534 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: ！元素名称是：PerTitle
+[DEBUG] 2016-11-15 17:42:48,536 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: ! 元素的路径是：.//*[@id='per']/h4
+[DEBUG] 2016-11-15 17:42:48,536 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: find element By xpath
+[DEBUG] 2016-11-15 17:42:49,143 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: ！元素名称是：PerTitle
+[DEBUG] 2016-11-15 17:42:49,144 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: ! 元素的路径是：.//*[@id='per']/h4
+[DEBUG] 2016-11-15 17:42:49,144 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: find element By xpath
+[DEBUG] 2016-11-15 17:42:49,704 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: ！元素名称是：PerTitle
+[DEBUG] 2016-11-15 17:42:49,705 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: ! 元素的路径是：.//*[@id='per']/h4
+[DEBUG] 2016-11-15 17:42:49,705 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: find element By xpath
+[DEBUG] 2016-11-15 17:42:50,220 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: ！元素名称是：PerTitle
+[DEBUG] 2016-11-15 17:42:50,220 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: ! 元素的路径是：.//*[@id='per']/h4
+[DEBUG] 2016-11-15 17:42:50,221 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: find element By xpath
+[DEBUG] 2016-11-15 17:42:50,741 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: ！元素名称是：PerTitle
+[DEBUG] 2016-11-15 17:42:50,744 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: ! 元素的路径是：.//*[@id='per']/h4
+[DEBUG] 2016-11-15 17:42:50,744 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: find element By xpath
+[DEBUG] 2016-11-15 17:42:51,291 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: ！元素名称是：PerTitle
+[DEBUG] 2016-11-15 17:42:51,292 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: ! 元素的路径是：.//*[@id='per']/h4
+[DEBUG] 2016-11-15 17:42:51,293 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: find element By xpath
+[DEBUG] 2016-11-15 17:42:51,816 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: ！元素名称是：PerTitle
+[DEBUG] 2016-11-15 17:42:51,816 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: ! 元素的路径是：.//*[@id='per']/h4
+[DEBUG] 2016-11-15 17:42:51,817 Webq.Locator.ResolveLocator - Webq.Locator.ResolveLocator: find element By xpath
+[ERROR] 2016-11-15 17:42:51,839 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Failure
+[INFO ] 2016-11-15 17:42:51,846 Webq.Case.CaseUI - Webq.Case.CaseUI: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/iQaWebq
+[INFO ] 2016-11-15 17:42:51,892 Webq.Case.CaseUI - Webq.Case.CaseUI: save snapshot path is:/Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/iQaWebqCaseUI_2016_11_15_17_42_51.png
+[INFO ] 2016-11-15 17:42:51,894 Webq.Case.CaseUI - Webq.Case.CaseUI: screen shot finished
+[INFO ] 2016-11-15 17:42:51,897 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Finsh
+[DEBUG] 2016-11-15 17:42:51,906 Webq.Page.PageLogin - Webq.Page.PageLogin: Webq.Page.PageLogin
+[INFO ] 2016-11-15 17:42:51,907 Webq.Page.PageLogin - Webq.Page.PageLogin: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/iQaWebq
+[INFO ] 2016-11-15 17:42:51,907 Webq.Page.PageLogin - Webq.Page.PageLogin: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/iQaWebq/src/main/java/Webq/Page/PageLogin.xml
+[INFO ] 2016-11-15 17:42:51,909 Webq.utils.xmlUtils - Webq.utils.xmlUtils: Webq.Page.PageLogin
+[INFO ] 2016-11-15 17:42:51,914 Webq.utils.xmlUtils - Webq.utils.xmlUtils: page Info is:Webq.Page.PageLogin
+[INFO ] 2016-11-15 17:42:51,915 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:51,915 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:51,915 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='phone']
+[INFO ] 2016-11-15 17:42:51,917 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is loginEmailInputBox
+[INFO ] 2016-11-15 17:42:51,918 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:51,918 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:51,918 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='password']
+[INFO ] 2016-11-15 17:42:51,919 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is loginPasswordInputBox
+[INFO ] 2016-11-15 17:42:51,919 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:51,920 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:51,920 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='form1']/div[2]
+[INFO ] 2016-11-15 17:42:51,920 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is loginButton
+[INFO ] 2016-11-15 17:42:51,920 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:51,921 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:51,921 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='form1']/div[2]
+[INFO ] 2016-11-15 17:42:51,921 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is wgjTitl
+[INFO ] 2016-11-15 17:42:51,921 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:51,921 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:42:51,922 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//div[@class = 'user_logined']
+[INFO ] 2016-11-15 17:42:51,922 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is profile
+[INFO ] 2016-11-15 17:42:51,922 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:51,922 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 30
+[INFO ] 2016-11-15 17:42:51,922 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='header-user-wrap']/div/span[1]/a
+[INFO ] 2016-11-15 17:42:51,923 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is clickToLoginButton
+[INFO ] 2016-11-15 17:42:51,923 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:42:51,923 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 30
+[INFO ] 2016-11-15 17:42:51,923 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value html/body/div[1]/div/ul/li[1]/a
+[INFO ] 2016-11-15 17:42:51,924 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is MainPage
+[INFO ] 2016-11-15 17:42:53,352 Webq.Page.PageLogin - Webq.Page.PageLogin: executing request http://test.bbs.700bike.com/
+[INFO ] 2016-11-15 17:42:53,807 Webq.Page.PageLogin - Webq.Page.PageLogin: --------------------------------------
+[INFO ] 2016-11-15 17:42:53,809 Webq.Page.PageLogin - Webq.Page.PageLogin: HTTP/1.1 200 OK
+[INFO ] 2016-11-15 17:42:53,809 Webq.Page.PageLogin - Webq.Page.PageLogin: Response content length: -1
+[INFO ] 2016-11-15 17:42:53,814 Webq.Page.PageLogin - Webq.Page.PageLogin: ------------------------------------
+[ERROR] 2016-11-15 17:42:53,816 Webq.Page.PageLogin - Webq.Page.PageLogin: 检查环境配置的地址有没有变化
+[DEBUG] 2016-11-15 17:42:53,822 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：clickToLoginButton
+[DEBUG] 2016-11-15 17:42:53,827 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='header-user-wrap']/div/span[1]/a
+[DEBUG] 2016-11-15 17:42:53,828 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[INFO ] 2016-11-15 17:42:53,935 Webq.Page.PageLogin - Webq.Page.PageLogin: click button
+[DEBUG] 2016-11-15 17:42:53,960 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：loginEmailInputBox
+[DEBUG] 2016-11-15 17:42:53,961 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='phone']
+[DEBUG] 2016-11-15 17:42:53,961 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[INFO ] 2016-11-15 17:42:54,398 Webq.Page.PageLogin - Webq.Page.PageLogin: type value is:  13157741542
+[DEBUG] 2016-11-15 17:42:54,481 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：loginPasswordInputBox
+[DEBUG] 2016-11-15 17:42:54,481 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='password']
+[DEBUG] 2016-11-15 17:42:54,482 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[INFO ] 2016-11-15 17:42:54,492 Webq.Page.PageLogin - Webq.Page.PageLogin: type value is:  ji123456
+[DEBUG] 2016-11-15 17:42:54,549 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：loginButton
+[DEBUG] 2016-11-15 17:42:54,549 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='form1']/div[2]
+[DEBUG] 2016-11-15 17:42:54,550 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[INFO ] 2016-11-15 17:42:54,579 Webq.Page.PageLogin - Webq.Page.PageLogin: click button
+[DEBUG] 2016-11-15 17:42:54,700 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
+[DEBUG] 2016-11-15 17:42:54,701 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
+[DEBUG] 2016-11-15 17:42:54,701 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[DEBUG] 2016-11-15 17:43:14,149 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
+[DEBUG] 2016-11-15 17:43:14,150 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
+[DEBUG] 2016-11-15 17:43:14,151 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[DEBUG] 2016-11-15 17:43:15,523 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
+[DEBUG] 2016-11-15 17:43:15,524 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
+[DEBUG] 2016-11-15 17:43:15,525 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[DEBUG] 2016-11-15 17:43:16,065 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
+[DEBUG] 2016-11-15 17:43:16,066 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
+[DEBUG] 2016-11-15 17:43:16,067 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[DEBUG] 2016-11-15 17:43:16,096 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
+[DEBUG] 2016-11-15 17:43:16,097 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
+[DEBUG] 2016-11-15 17:43:16,098 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[DEBUG] 2016-11-15 17:43:16,134 Webq.Page.PageHome - Webq.Page.PageHome: Webq.Page.PageHome
+[INFO ] 2016-11-15 17:43:16,134 Webq.Page.PageHome - Webq.Page.PageHome: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/iQaWebq
+[INFO ] 2016-11-15 17:43:16,134 Webq.Page.PageHome - Webq.Page.PageHome: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/iQaWebq/src/main/java/Webq/Page/PageHome.xml
+[INFO ] 2016-11-15 17:43:16,135 Webq.utils.xmlUtils - Webq.utils.xmlUtils: Webq.Page.PageHome
+[INFO ] 2016-11-15 17:43:16,140 Webq.utils.xmlUtils - Webq.utils.xmlUtils: page Info is:Webq.Page.PageHome
+[INFO ] 2016-11-15 17:43:16,141 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:43:16,141 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:43:16,141 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='nav-index']
+[INFO ] 2016-11-15 17:43:16,142 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is MainPage
+[INFO ] 2016-11-15 17:43:16,143 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:43:16,143 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:43:16,144 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='header-nav']/li[8]/a
+[INFO ] 2016-11-15 17:43:16,144 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is BBStoStore
+[INFO ] 2016-11-15 17:43:16,145 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2016-11-15 17:43:16,145 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2016-11-15 17:43:16,145 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value html/head/title
+[INFO ] 2016-11-15 17:43:16,146 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is TitleStore
+[DEBUG] 2016-11-15 17:43:16,146 Webq.Page.PageHome - Webq.Page.PageHome: ！元素名称是：html/body/div[1]/div/div/div[3]
+[DEBUG] 2016-11-15 17:43:16,147 Webq.Page.PageHome - Webq.Page.PageHome: ! 元素的路径是：html/body/div[1]/div/div/div[3]
+[DEBUG] 2016-11-15 17:43:16,147 Webq.Page.PageHome - Webq.Page.PageHome: find element By xpath
+[DEBUG] 2016-11-15 17:43:16,884 Webq.Page.PageHome - Webq.Page.PageHome: ！元素名称是：MainPage
+[DEBUG] 2016-11-15 17:43:16,884 Webq.Page.PageHome - Webq.Page.PageHome: ! 元素的路径是：.//*[@id='nav-index']
+[DEBUG] 2016-11-15 17:43:16,885 Webq.Page.PageHome - Webq.Page.PageHome: find element By xpath
+[INFO ] 2016-11-15 17:43:16,910 Webq.Page.PageHome - Webq.Page.PageHome: click button
+[INFO ] 2016-11-15 17:43:16,952 Webq.Page.PageHome - Webq.Page.PageHome: 跳转到主页
+[INFO ] 2016-11-15 17:43:17,200 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Success
+[INFO ] 2016-11-15 17:43:17,202 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Finish
+[INFO ] 2016-11-15 17:43:17,203 Webq.utils.TestNGListener - Webq.utils.TestNGListener: PassedTests = TestWebqPageHomeLoginCheckPresentUrl
+[INFO ] 2016-11-15 17:43:17,204 Webq.utils.TestNGListener - Webq.utils.TestNGListener: PassedTests = TestWebqLoginOut
+[INFO ] 2016-11-15 17:43:17,204 Webq.utils.TestNGListener - Webq.utils.TestNGListener: failedTest = TestWebqPageHomeCheckHeadTitle
+[INFO ] 2016-11-15 17:43:17,204 Webq.utils.TestNGListener - Webq.utils.TestNGListener: failedTest = TestWebqPageHomeCheckLogoSize
+[INFO ] 2016-11-15 17:43:17,204 Webq.utils.TestNGListener - Webq.utils.TestNGListener: failedTest = TestWebqPageHomeCheckPerUrl
+[INFO ] 2016-11-15 17:43:17,213 Webq.Case.CaseUI - Webq.Case.CaseUI: Stop WebDriver
